@@ -1,31 +1,22 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import employees from '../employees.json'
+
 const TableBody = () => {
     return (
         <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>704-555-555</td>
-                        <td>ottoman@example.com</td>
+            {employees.results.map(employee => {
+                return (
+                    <tr key= {employee.login.uuid}>
+                        <td><img src={employee.picture.thumbnail} alt={employee.name.first}/></td>
+                        <td>{employee.name.first} {employee.name.last}</td>
+                        <td>{employee.phone}</td>
+                        <td>{employee.email}</td>
+                        <td>{employee.location.city}</td>
                     </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>704-555-555</td>
-                        <td>thornton@example.com</td>
-                        
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>704-555-555</td>
-                        <td>birdman@example.com</td>
-                     
-                    </tr>
+
+
+                )
+            })}
                 </tbody>
     )
 }
