@@ -1,5 +1,5 @@
 import React from 'react'
-
+import employees from '../employees.json'
 const TableBody = () => {
     return (
         <tbody>
