@@ -1,6 +1,5 @@
 import React from 'react'
 import TableBody from './TableBody'
-import employees from '../employees.json'
 
 function Table() {
     return (

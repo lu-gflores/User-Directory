@@ -1,6 +1,5 @@
-import React, {useContext} from 'react'
+import React from 'react'
 import employees from '../employees.json'
-
 const TableBody = () => {
     return (
         <tbody>
@@ -13,8 +12,6 @@ const TableBody = () => {
                         <td>{employee.email}</td>
                         <td>{employee.location.city}</td>
                     </tr>
-
-
                 )
             })}
                 </tbody>
