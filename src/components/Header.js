@@ -8,7 +8,6 @@ function Header() {
                 <p className="lead">Search your current employees here!</p>
             </div>
         </div>
-
     )
 }
 export default Header;

@@ -26,7 +26,7 @@ function Table() {
                         <td>Jacob</td>
                         <td>Thornton</td>
                         <td>704-555-555</td>
-                        <td>@fat</td>
+                        <td>thornton@example.com</td>
                         
                     </tr>
                     <tr>
@@ -34,7 +34,7 @@ function Table() {
                         <td>Larry</td>
                         <td>the Bird</td>
                         <td>704-555-555</td>
-                        <td>@twitter</td>
+                        <td>birdman@example.com</td>
                      
                     </tr>
                 </tbody>
