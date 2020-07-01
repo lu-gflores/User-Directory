@@ -26,7 +26,7 @@ class TableBody extends Component {
     render() {
     return (
         <>
-        {/* Taking user input to update table */}
+        {/* Taking user input to update table, sorts by first name only */}
         <input className="form-control" onChange={e => this.handleChange(e.target.value)} type="text" placeholder="John Smith" />
 
         <table className="table">
