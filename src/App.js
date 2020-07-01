@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Table from './components/Table'
+import TableBody from './components/TableBody'
 import Header from './components/Header'
 import Wrapper from './components/Wrapper'
 function App() {
@@ -10,8 +10,8 @@ function App() {
 
     <Header/>
 
-      <Table/>
-      
+      <TableBody/>
+     
     </Wrapper>
     </div>
   );

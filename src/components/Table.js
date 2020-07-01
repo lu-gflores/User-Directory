@@ -1,21 +1,13 @@
 import React from 'react'
-import TableBody from './TableBody'
-
-function Table() {
+const Table = (props) => {
     return (
-            <table className="table">
-                <thead>
-                    <tr>    
-                        <th scope="col"> </th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Phone</th>
-                        <th scope="col">Email</th>
-                        <th scope="col">City</th>
-                    </tr>
-                </thead>
-               <TableBody/>
-            </table>
+        <tr>
+            <td><img src={props.picture} alt={props.name.first}/></td>
+            <td>{props.name.first} {props.name.last}</td>
+            <td>{props.phone}</td>
+            <td>{props.email}</td>
+            <td>{props.location}</td>
+        </tr>
     )
-
 }
 export default Table;
