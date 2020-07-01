@@ -1,5 +1,6 @@
 .jumbotron{
     background-color: bisque;
+    border-bottom: 5px solid black;
 }
 .jumbotron p {
    font-size: 26px; 
