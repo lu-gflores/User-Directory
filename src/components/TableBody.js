@@ -22,6 +22,16 @@ class TableBody extends Component {
         this.setState({currentList: newList})
     }
 
+    sortEmail = () => {
+        employees.sort((a, b) => {
+            if(a.email < b.email){
+                return -1;
+            } else {
+                return 1;
+            }
+        })
+        this.setState([...employees]);
+    }
 
     render() {
     return (
@@ -35,7 +45,7 @@ class TableBody extends Component {
                     <th scope="col"> </th>
                     <th scope="col">Name</th>
                     <th scope="col">Phone</th>
-                    <th scope="col">Email</th>
+                    <th scope="col" onClick= {() => this.sortEmail("email")} >Email</th>
                     <th scope="col">City</th>
                 </tr>
             </thead>
