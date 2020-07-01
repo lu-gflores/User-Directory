@@ -11,7 +11,11 @@ This is a simple employee directory that searches specific employees based on th
 
 No installation is required. You may clone this repository with the command ```git clone``` in bash to your respective machine. 
 
-## Usage
+## Resources Used
+
+* Bootstrap v. 4.5
+* ReactJS
+* [RandomUser API](https://randomuser.me/)
 
 
 ## Author
