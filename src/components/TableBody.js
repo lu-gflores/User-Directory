@@ -47,22 +47,6 @@ class TableBody extends Component {
 
             </tbody>
         </table>
-
-
-
-        {/* // <tbody>
-        //     {employees.map(employee => {
-        //         return (
-        //             <tr key= {employee.login.uuid}>
-        //                 <td><img src={employee.picture.thumbnail} alt={employee.name.first}/></td>
-        //                 <td>{employee.name.first} {employee.name.last}</td>
-        //                 <td>{employee.phone}</td>
-        //                 <td>{employee.email}</td>
-        //                 <td>{employee.location.city}</td>
-        //             </tr>
-        //         )
-        //     })}
-        //         </tbody> */}
         </>
     );
 }
