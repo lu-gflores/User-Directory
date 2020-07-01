@@ -42,7 +42,7 @@ class TableBody extends Component {
             <tbody>
             {this.state.currentList.map((employee) => (
                 <Table key={employee.login.uuid} image={employee.picture.thumbnail} name={employee.name} phone={employee.phone} email={employee.email} location={employee.location.city} />
-            ))};
+            ))}
 
 
             </tbody>
