@@ -45,7 +45,7 @@ class TableBody extends Component {
                     <th scope="col"> </th>
                     <th scope="col">Name</th>
                     <th scope="col">Phone</th>
-                    <th scope="col" onClick= {() => this.sortEmail("email")} >Email</th>
+                    <th scope="col" onClick= {() => this.sortEmail("email")} title="Click to sort Email"><strong>Email</strong></th>
                     <th scope="col">City</th>
                 </tr>
             </thead>
